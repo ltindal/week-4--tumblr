@@ -15,6 +15,8 @@ class HomeViewController: UIViewController {
     
     @IBOutlet var buttons: [UIButton]!
     
+    @IBOutlet weak var discoverBubble: UIImageView!
+    
     var realHomeViewController: UIViewController!
     var searchViewController: UIViewController!
     var accountViewController: UIViewController!
@@ -39,6 +41,10 @@ class HomeViewController: UIViewController {
         buttons[selectedIndex].isSelected = true
         didPressTab(buttons[selectedIndex])
         
+        UIView.animate(withDuration: 0.8, delay: 0.0, options: [.autoreverse, .repeat], animations: {
+            self.discoverBubble.transform = CGAffineTransform(translationX: 0, y: 10)
+            }, completion: nil)
+        
         // Do any additional setup after loading the view.
     }
     
@@ -62,6 +68,10 @@ class HomeViewController: UIViewController {
         vc.view.frame = contentView.bounds
         contentView.addSubview(vc.view)
         vc.didMove(toParentViewController: self)
+        
+        if selectedIndex == 1  {
+            discoverBubble.isHidden = true
+        }
         
         
     }
