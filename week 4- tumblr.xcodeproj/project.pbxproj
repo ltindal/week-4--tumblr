@@ -20,6 +20,7 @@
 		3DA863AF1DCE8C330099861E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA863AE1DCE8C330099861E /* ComposeViewController.swift */; };
 		3DA863B11DCE8E7B0099861E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA863B01DCE8E7B0099861E /* AccountViewController.swift */; };
 		3DA863B31DCE8EF20099861E /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA863B21DCE8EF20099861E /* TrendingViewController.swift */; };
+		3DA863B51DD11E560099861E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA863B41DD11E560099861E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3DA863AE1DCE8C330099861E /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		3DA863B01DCE8E7B0099861E /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		3DA863B21DCE8EF20099861E /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		3DA863B41DD11E560099861E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3DA8637A1DCE85AE0099861E /* AppDelegate.swift */,
 				3DA8637C1DCE85AE0099861E /* ViewController.swift */,
 				3DA8637E1DCE85AF0099861E /* Main.storyboard */,
+				3DA863B41DD11E560099861E /* LoginViewController.swift */,
 				3DA863B21DCE8EF20099861E /* TrendingViewController.swift */,
 				3DA863B01DCE8E7B0099861E /* AccountViewController.swift */,
 				3DA863AE1DCE8C330099861E /* ComposeViewController.swift */,
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA863B51DD11E560099861E /* LoginViewController.swift in Sources */,
 				3DA863AD1DCE8AB10099861E /* SearchViewController.swift in Sources */,
 				3DA863B31DCE8EF20099861E /* TrendingViewController.swift in Sources */,
 				3DA8637D1DCE85AF0099861E /* ViewController.swift in Sources */,
